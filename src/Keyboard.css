@@ -1,0 +1,35 @@
+.key {
+width: 85px;
+height: 35px;
+line-height: 40px;
+color: white;
+float: left;
+background-color: #333333;
+text-align: center;
+margin: 1px;
+}
+.key2 {
+  width: 41.5px;
+  height: 35px;
+  line-height: 40px;
+  color: white;
+  float: left;
+  background-color: #333333;
+  text-align: center;
+  margin: 1px;
+}
+.background-color1{
+background-color: #222121;
+}
+.background-color2{
+  background-color: #ff9f18;
+}
+.key:hover{
+  background: #949292;
+  color: #000000;
+}
+.key2:hover{
+  background: #949292;
+  color: #000000;
+}
+    
