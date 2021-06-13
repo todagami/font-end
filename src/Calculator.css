@@ -1,7 +1,6 @@
 .calculator{
     width: 349px;
     height: 600px;
-    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -10,15 +9,34 @@
 .calculator .history {
     width: 100%;
     min-height: 50px;
-    background-color: yellowgreen;
+    background-color: #222121;
 }
 .calculator .result{
     width: 100%;
+    color: white;
+    background-color: black;
     flex: auto;
     background-color: #222121;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
 }
-.calculator .keyboard{
+.calculator .key-board{
     width: 100%;
     min-height: 10px;
     background-color: black;
+}
+.historyicon{
+    width: 50px;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+    float: left;
+  }
+.historyvalue{
+    color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+    float: right;
 }

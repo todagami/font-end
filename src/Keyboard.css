@@ -1,3 +1,16 @@
+.board{
+width: 100%;
+color: white;
+flex: auto;
+display: flex;
+justify-content: flex-end;
+background-color: #222121;
+padding-bottom: 5px;
+}
+.keyboard{
+  background-color: black;
+  color: red;
+}
 .key {
 width: 85px;
 height: 35px;
@@ -32,4 +45,4 @@ background-color: #222121;
   background: #949292;
   color: #000000;
 }
-    
+  

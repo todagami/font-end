@@ -2,6 +2,11 @@ import "./Keyboard.css";
 const Keyboard = () => {
   return (
     <div>
+      <div className="row">
+        <div className="board">
+          0
+        </div>
+      </div>
       <div className="keyboard">
         <div className="row">
           <div className="key">AC</div>
